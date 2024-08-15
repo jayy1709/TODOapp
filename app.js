@@ -4,7 +4,7 @@ const Item = require('./models/items');
 const app = express();
 
 app.use(express.urlencoded({extended: true}));//this helps to pass the incoming request with url encoded payload 
-const mongodb = 'mongodb+srv://jack:Jaygoswam1@cluster0.nicf5a8.mongodb.net/item-database?retryWrites=true&w=majority&appName=Cluster0';
+const mongodb = 'mongodb+srv://jack:<password>@cluster0.nicf5a8.mongodb.net/item-database?retryWrites=true&w=majority&appName=Cluster0';
 
 app.set('view engine','ejs');
 
